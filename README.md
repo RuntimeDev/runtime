@@ -7,4 +7,8 @@ To run locally:
  To build project:
   - `yarn build`
   
-Alternatively - you can use NPM.
+Alternatively - you can use NPM:
+  - `npm install`
+  - `npm start`
+
+  - `npm build`
