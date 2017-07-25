@@ -2,7 +2,7 @@
   "name": "runtime",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost/~vasilisakarelova/runtime/build",
+  "homepage": "https://runtimedev.github.io/runtime",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^14.4.0",
