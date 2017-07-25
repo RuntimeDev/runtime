@@ -1,4 +1,4 @@
-Check the project [here](https://runtimedev.github.io/runtime) (After updating the website, it may take time to display them online).
+Check the project [here](https://runtimedev.github.io/runtime) (After updating the website, it may take time to display the changes online).
 
 To run locally:
   - `yarn install`
