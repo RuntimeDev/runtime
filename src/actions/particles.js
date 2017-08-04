@@ -87,11 +87,18 @@ function Canvas() {
 		for(var i = 0; i < opts.particleAmount; i++){
 			particles.push( new Particle() );
 		}
+
 		window.requestAnimationFrame(loop);
 	}
 
+  function resize() {
+    w = canvasBody.width = window.innerWidth + 400;
+    h = canvasBody.height = window.innerHeight + 400;
+  }
+
 	function loop(){ //Function of loop that will be called for a frame of the animation
 		window.requestAnimationFrame(loop);
+    resize()
 		tick++;
 
 		//Drawing the background. Basically clearing the frame that was before
@@ -113,11 +120,6 @@ function Canvas() {
 	}
 
 	setup();
-
-	window.addEventListener('resize', function(){
-		w = canvasBody.width = window.innerWidth + 400;
-		h = canvasBody.height = window.innerHeight + 400;
-	});
 
 	canvasWrapper.addEventListener('click', ev => {
 		particles.push( new Particle(ev.pageX, ev.pageY) );

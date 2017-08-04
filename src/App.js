@@ -76,6 +76,8 @@ class App extends Component {
               </g>
               </svg>
             </div>
+            <h2 className='description-title second-sub'>Coming Soon</h2>
+            <h2 className='description-title third-sub'><a href="mailto:info@runtimedev.com">info@runtimedev.com</a></h2>
           </div>
         </div>
         <div className='particles-wrapper'>
